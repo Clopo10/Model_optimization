@@ -3,3 +3,6 @@
 
 # Data
 /data/
+
+# .env files
+*.env
