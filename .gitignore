@@ -6,3 +6,10 @@
 
 # .env files
 *.env
+
+# Ignore training checkpoints and large model files
+models/cifar_tuning/
+__pycache__/
+*.keras
+*.h5
+.ipynb_checkpoints/
